@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors")
 
 const app = express()
-const port = 8080;
+const PORT = process.env.PORT || 8080;
 
 app.use(cors())
 
@@ -21,4 +21,4 @@ app.get('/compoundinterest', function(req, res){
 })
 
 
-app.listen(port)
+app.listen(PORT)
