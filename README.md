@@ -1,2 +1,2 @@
 # compoundInterest-server
-using this server you can calculate the compound interest of the given data.
+this is a annual compound interest server using this server you can calculate annual compound interest.
